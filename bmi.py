@@ -8,10 +8,13 @@ def calculate_bmi(height, weight):
     # BMI RANGE
     if bmi>25.0:
         print("OVER WEIGHT LOSE WEIGHT CUNT")
+        return 1
     elif bmi>=18.5 and bmi<=25.0:
         print("GOOD KEEP IT UP")
+        return 0
     else:
         print("UNDER WEIGHT EAT MORE U CUNT")
+        return -1
 
 
 
